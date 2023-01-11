@@ -98,5 +98,57 @@ body{
 }
 
 .workapp__wrap{
+    padding: 50px 0;
     background-image: url(../img/bg.jpg);
+}
+
+.parttitle{
+    font-weight: 600;
+    font-size: 2.75rem;
+    line-height: 2.25rem;
+    text-align: center;
+    color: #000;
+    margin-bottom: 80px;
+}
+
+.workapp--item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 130px;
+}
+
+.workapp__img{
+    width: 47%;
+    text-align: center;
+}
+
+.workapp__text{
+    width: 50%;
+}
+
+.workapp__text h3{
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 2.25rem;
+    color: #FA9A0C;
+    margin-bottom: 17px;
+}
+
+.workapp__text h2{
+    font-weight: 700;
+    font-size: 2.5rem;
+    line-height: 3.56rem;
+    color: #252B42;
+    margin-bottom: 17px;
+}
+
+.workapp__text p{
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 2.25rem;
+}
+
+.workapp--item:nth-child(2n){
+    flex-direction: row-reverse;
 }
