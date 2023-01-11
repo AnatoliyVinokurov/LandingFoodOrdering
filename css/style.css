@@ -11,3 +11,31 @@ body{
     line-height: 1.5;/*межстрочный интервал*/
     font-size: 1rem;
 }
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 15px;
+    box-sizing: border-box;
+    max-width: 1330px;
+    margin: 0 auto;
+}
+
+.menu{
+    display: flex;
+    list-style: none;
+}
+
+.menu li{
+    margin-left: 94px;
+}
+
+.menu li a{
+    color: #252B42;
+    text-decoration: none;
+}
+
+.menu li a:hover{
+    color: #FA4A0C;
+}
