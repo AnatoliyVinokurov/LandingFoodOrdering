@@ -153,8 +153,40 @@ body{
     flex-direction: row-reverse;
 }
 
+.workapp--item:last-child{
+    margin-bottom: 110px;
+}
+
 .downloadsecond__wrap{
     background: url(../img/bg-app-2.png) center center no-repeat;
     background-size: cover;
     padding: 70px 0 70px 0;
 }
+
+.footer__wrap{
+    padding: 70px 0;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__wrap p{
+    font-weight: 700;
+    font-size: 0.75rem;
+    line-height: 1.125rem;
+}
+
+.footer div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer div a {
+    margin-left: 19px;
+    align-items: center;
+}
+
