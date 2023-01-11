@@ -97,3 +97,6 @@ body{
     border-color: #FA9A0C;
 }
 
+.workapp__wrap{
+    background-image: url(../img/bg.jpg);
+}
