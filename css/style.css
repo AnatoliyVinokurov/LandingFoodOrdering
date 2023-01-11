@@ -152,3 +152,9 @@ body{
 .workapp--item:nth-child(2n){
     flex-direction: row-reverse;
 }
+
+.downloadsecond__wrap{
+    background: url(../img/bg-app-2.png) center center no-repeat;
+    background-size: cover;
+    padding: 70px 0 70px 0;
+}
