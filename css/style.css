@@ -12,6 +12,14 @@ body{
     font-size: 1rem;
 }
 
+.wrap{
+    max-width: 1080px;
+    min-width: 320px;
+    margin: 0 auto;
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+
 .header{
     display: flex;
     align-items: center;
@@ -40,4 +48,52 @@ body{
     color: #FA9A0C;
 }
 
-/*F6F6F6*/
+.download__wrap{
+    background: url(../img/bg-app.png) center center no-repeat;
+    background-size: cover;
+    padding: 73px 0 146px 0;
+}
+
+.download{
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.download__text{
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    margin-bottom: 20px;
+}
+
+.download__title{
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 5rem;
+    margin-bottom: 30px;
+}
+
+.download__subtitle{
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    margin-bottom: 60px;
+}
+
+.btn{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 700;
+    border: 1px solid #FFFFFF;
+    border-radius: 30px;
+    padding: 16px 60px;
+    display: inline-block;
+    margin: 0 34px 0 0;
+}
+
+.btn--orange{
+    background: #FA9A0C;
+    border-color: #FA9A0C;
+}
+
