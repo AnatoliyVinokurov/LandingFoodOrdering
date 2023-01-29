@@ -1,18 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap');
 
-*{
+* {
     padding: 0;
     margin: 0;
 }
 
-body{
+body {
     font-family: 'Montserrat', sans-serif;
     color: #737373;
-    line-height: 1.5;/*межстрочный интервал*/
+    line-height: 1.5;
+    /*межстрочный интервал*/
     font-size: 1rem;
 }
 
-.wrap{
+.wrap {
     max-width: 1080px;
     min-width: 320px;
     margin: 0 auto;
@@ -20,7 +21,7 @@ body{
     box-sizing: border-box;
 }
 
-.header{
+.header {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -30,57 +31,57 @@ body{
     margin: 0 auto;
 }
 
-.menu{
+.menu {
     display: flex;
     list-style: none;
 }
 
-.menu li{
+.menu li {
     margin-left: 94px;
 }
 
-.menu li a{
+.menu li a {
     color: #252B42;
     text-decoration: none;
 }
 
-.menu li a:hover{
+.menu li a:hover {
     color: #FA9A0C;
 }
 
-.download__wrap{
+.download__wrap {
     background: url(../img/bg-app.png) center center no-repeat;
     background-size: cover;
     padding: 73px 0 146px 0;
 }
 
-.download{
+.download {
     color: #FFFFFF;
     text-align: center;
 }
 
-.download__text{
+.download__text {
     font-weight: 700;
     font-size: 1.5rem;
     line-height: 2rem;
     margin-bottom: 20px;
 }
 
-.download__title{
+.download__title {
     font-weight: 700;
     font-size: 3rem;
     line-height: 5rem;
     margin-bottom: 30px;
 }
 
-.download__subtitle{
+.download__subtitle {
     font-weight: 500;
     font-size: 1.5rem;
     line-height: 2rem;
     margin-bottom: 60px;
 }
 
-.btn{
+.btn {
     color: #FFFFFF;
     text-decoration: none;
     font-size: 1.5rem;
@@ -92,17 +93,28 @@ body{
     margin: 0 34px 0 0;
 }
 
-.btn--orange{
+.btn:hover {
+    background: #FA9A0C;
+    border: 1px solid #FA9A0C;
+}
+
+.btn--orange {
     background: #FA9A0C;
     border-color: #FA9A0C;
 }
 
-.workapp__wrap{
+.btn--orange:hover {
+    background: #FFFFFF;
+    border: 1px solid #FA9A0C;
+    color: #FA9A0C;
+}
+
+.workapp__wrap {
     padding: 50px 0;
     background-image: url(../img/bg.jpg);
 }
 
-.parttitle{
+.parttitle {
     font-weight: 600;
     font-size: 2.75rem;
     line-height: 2.25rem;
@@ -111,23 +123,23 @@ body{
     margin-bottom: 80px;
 }
 
-.workapp--item{
+.workapp--item {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-bottom: 130px;
 }
 
-.workapp__img{
+.workapp__img {
     width: 47%;
     text-align: center;
 }
 
-.workapp__text{
+.workapp__text {
     width: 50%;
 }
 
-.workapp__text h3{
+.workapp__text h3 {
     font-weight: 700;
     font-size: 1.5rem;
     line-height: 2.25rem;
@@ -135,7 +147,7 @@ body{
     margin-bottom: 17px;
 }
 
-.workapp__text h2{
+.workapp__text h2 {
     font-weight: 700;
     font-size: 2.5rem;
     line-height: 3.56rem;
@@ -143,43 +155,43 @@ body{
     margin-bottom: 17px;
 }
 
-.workapp__text p{
+.workapp__text p {
     font-weight: 500;
     font-size: 1.5rem;
     line-height: 2.25rem;
 }
 
-.workapp--item:nth-child(2n){
+.workapp--item:nth-child(2n) {
     flex-direction: row-reverse;
 }
 
-.workapp--item:last-child{
+.workapp--item:last-child {
     margin-bottom: 110px;
 }
 
-.downloadsecond__wrap{
+.downloadsecond__wrap {
     background: url(../img/bg-app-2.png) center center no-repeat;
     background-size: cover;
     padding: 70px 0 70px 0;
 }
 
-.footer__wrap{
+.footer__wrap {
     padding: 70px 0;
 }
 
-.footer{
+.footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.footer__wrap p{
+.footer__wrap p {
     font-weight: 700;
     font-size: 0.75rem;
     line-height: 1.125rem;
 }
 
-.footer div{
+.footer div {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -190,81 +202,101 @@ body{
     align-items: center;
 }
 
-@media (max-width:800px){
-    .header{
+@media (max-width:800px) {
+    .header {
         flex-direction: column;
     }
-    .logo{ 
+
+    .logo {
         margin-bottom: 30px;
     }
-    .menu{
+
+    .menu {
         display: flex;
         flex-wrap: wrap;
     }
-    .menu li{
+
+    .menu li {
         margin-left: 25px;
         margin-right: 25px;
     }
-    .download__text{
+
+    .download__text {
         font-weight: 500;
         font-size: 1.25rem;
     }
-    .download__title{
+
+    .download__title {
         font-size: 2rem;
         line-height: 3.5rem;
     }
-    .download__subtitle{
+
+    .download__subtitle {
         font-size: 1.25rem;
     }
-    .download__wrap{
+
+    .download__wrap {
         padding: 40px 0 70px 0;
     }
-    .parttitle{
+
+    .parttitle {
         font-size: 2rem;
         margin-bottom: 50px;
     }
-    .workapp--item{
+
+    .workapp--item {
         flex-direction: column-reverse;
     }
-    .workapp--item:nth-child(2n){
+
+    .workapp--item:nth-child(2n) {
         flex-direction: column-reverse;
     }
-    .workapp__text, .workapp__img{
+
+    .workapp__text,
+    .workapp__img {
         width: 100%;
     }
-    .workapp__text{
+
+    .workapp__text {
         margin-bottom: 40px;
     }
-    .workapp__text h3{
+
+    .workapp__text h3 {
         font-size: 1.25rem;
         line-height: 2.5rem;
     }
-    .workapp__text h2{
+
+    .workapp__text h2 {
         font-size: 2rem;
         line-height: 3rem;
     }
 }
 
-@media (max-width:600px){
-    .btn{
+@media (max-width:600px) {
+    .btn {
         display: block;
         margin: 30px auto;
         width: 290px;
         box-sizing: border-box;
     }
-    .footer{
+
+    .footer {
         flex-direction: column;
     }
-    .footer img{
+
+    .footer img {
         margin-bottom: 30px;
     }
-    .footer__wrap{
+
+    .footer__wrap {
         padding: 30px 0;
     }
-    .menu{
+
+    .menu {
         justify-content: center;
     }
-    .menu li{
+
+    .menu li {
         margin: 10px 15px;
     }
 }
